@@ -1,7 +1,7 @@
 import { EventEmitter } from "events";
-import Experience from "./Experience";
+import Experience from "./Experience.js";
 import gsap from "gsap";
-import convertToSpan from "./Utils/convertToSpan";
+import convertToSpan from "./Utils/convertToSpan.js";
 
 export default class Preloader extends EventEmitter {
   constructor() {

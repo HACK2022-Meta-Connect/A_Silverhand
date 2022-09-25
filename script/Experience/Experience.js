@@ -1,16 +1,16 @@
 import * as THREE from "three";
 
 // utils
-import Sizes from "./Utils/Sizes";
-import Time from "./Utils/Time";
-import Resources from "./Utils/Resources";
-import assets from "./Utils/assets";
+import Sizes from "./Utils/Sizes.js";
+import Time from "./Utils/Time.js";
+import Resources from "./Utils/Resources.js";
+import assets from "./Utils/assets.js";
 
 // Components
-import Camera from "./Camera";
-import Renderer from "./Renderer";
-import World from "./World/World";
-import Preloader from "./Preloader";
+import Camera from "./Camera.js";
+import Renderer from "./Renderer.js";
+import World from "./World/World.js";
+import Preloader from "./Preloader.js";
 
 export default class Experience {
   static instance;

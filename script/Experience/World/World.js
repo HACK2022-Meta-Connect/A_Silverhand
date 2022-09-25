@@ -1,11 +1,11 @@
 import * as THREE from "three";
-import Experience from "../Experience";
+import Experience from "../Experience.js";
 
-import Room from "./Room";
-import Environment from "./Environment";
-import Controls from "./Controls";
-import Floor from "./Floor";
-import Theme from "./Theme";
+import Room from "./Room.js";
+import Environment from "./Environment.js";
+import Controls from "./Controls.js";
+import Floor from "./Floor.js";
+import Theme from "./Theme.js";
 import { EventEmitter } from "events";
 
 export default class World extends EventEmitter {

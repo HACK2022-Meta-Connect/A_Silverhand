@@ -1,4 +1,4 @@
-import Experience from "../Experience";
+import Experience from "../Experience.js";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ASScroll from "@ashthornton/asscroll";

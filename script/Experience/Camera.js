@@ -1,6 +1,6 @@
-import Experience from "./Experience";
+import Experience from "./Experience.js";
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { Vector3 } from "three";
 
 export default class Camera {
