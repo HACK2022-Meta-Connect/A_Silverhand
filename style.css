@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--color-text);
+  cursor: pointer;
 }
 
 h1,
@@ -18,6 +19,46 @@ p,
 span,
 svg {
   transition: color 0.5s, background-color 0.5s;
+}
+
+#instructions {
+  display: none;
+}
+
+#results,
+body:hover #instructions {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+a:visited {
+  color: inherit;
+}
+
+#results {
+  display: none;
+  cursor: default;
+}
+
+#results .content,
+#instructions .content {
+  max-width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+#score {
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  top: 30px;
+  right: 30px;
 }
 
 :root {
