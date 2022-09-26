@@ -6,7 +6,7 @@ import Environment from "./Environment.js";
 import Controls from "./Controls.js";
 import Floor from "./Floor.js";
 import Theme from "./Theme.js";
-import { EventEmitter } from "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400";
+import { EventEmitter } from "events";
 
 export default class World extends EventEmitter {
   constructor() {
