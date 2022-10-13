@@ -8,5 +8,5 @@ Your Next Badge Collection for Hybrid Workspace
 clone the repo
 ```shell
 yarn
-yarn serve
+yarn dev
 ```
